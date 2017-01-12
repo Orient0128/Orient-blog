@@ -32,6 +32,16 @@
  * 2.0 - General Elements
  */
 
+
+ .Orient-navBar {
+ 	list-style-type: none;
+ }
+
+ .Orient-navBar-item {
+	float: left;
+	/*display: inline;*/
+ }
+
 * {outline: none;}
 
 h1, 
@@ -173,7 +183,7 @@ figure {
 	padding: 10px 0;
 	color: #0972b4;
 	text-shadow: none;
-} 
+}
 
 .cl-effect-11 a::before {
 	position: absolute;
